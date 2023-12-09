@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+:root{
+    --color-default:#004f83;
+    --color-second:#0067ac;
+    --color-white:#fff;
+    --color-body:#e4e9f7;
+    --color-light:#e0e0e0;
+
+  }
+  
+
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.tableStyle {
+    border-collapse: collapse;
+    width: 100%;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:50px;
+    }
+    th {
+    background-color: #6495ED;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 20px;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+    }
+    tr:nth-child(even) td {
+    background-color: #f2f2f2;
+    }
+    tr:hover td {
+    background-color: #87CEEB;
+    }
+    td {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    padding: 15px 20px;
+ text-align: center;
+     font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+
+
+
+
+    .tableStyle_class {
+        border: none;
+        width: 100%;
+   
+   
+    }
+    .tableStyle_class th {
+        background-color: #6495ED;
+        padding: 5px;
+    }
+    .tableStyle_class td {
+        background-color: #d6ecf5;
+        padding: 5px;
+    }
+
+
+
+.btn_pdf{
+    padding: 6px 8px;
+    border: 1px solid;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ff9409;
+    float: right;
+}
+
+
+
+
+
+.tableStyle_score{
+ position: absolute;
+ z-index: 2;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ width: 60%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 12px 12px 0 0;
+ overflow: hidden;
+
+}
+.tableStyle_score td , th{
+ padding: 15px 20px;
+ text-align: center;
+ 
+
+}
+.tableStyle_score th{
+ background-color:rgb(76, 126, 233);;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+.tableStyle_score tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+.tableStyle_score tr:nth-child(even){
+ background-color: #eeeeee;
+}
+
+
+
